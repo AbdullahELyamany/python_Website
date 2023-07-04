@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>{{ pagetitle }}</title>
+        <link rel="stylesheet" href="{{ url_for('static', filename='css/main.css') }}" />
+        <link rel="stylesheet" href="{{ url_for('static', filename='css/all.min.css') }}" />
+        <link rel="icon" href="{{ url_for('static', filename='images/icon.png') }}" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;500&#038;display=swap" rel="stylesheet" />
+        {% if style %}
+        <link rel="stylesheet" href="{{ url_for('static', filename='css/' + style + '.css') }}" />
+        {% endif %}
+        {% block head %}{% endblock%}
+    </head>
+
+    <body>
+<!--  Start Head-->
+        <header>
+            <div class="container">
+                <div class="icon">
+                    <a class="brand" href="{{ url_for('home') }}">
+                        <img src="{{ url_for('static', filename='images/logo.png') }}" title="logo" width="200px" height="90px" />
+                    </a>
+                </div>
+                <!--<div class="container0" onclick="myFunction(this)">
+                  <div class="bar1"></div>
+                  <div class="bar2"></div>
+                  <div class="bar3"></div>
+                </div>-->
+                <strong><nav>
+                    <ul class="menu">
+                        <li><a href="{{ url_for('home') }}"><i class="fa fa-chevron-down" aria-hidden="true"></i>Home</a></li>
+                        <li><a href="{{ url_for('path') }}"><i class="fa fa-chevron-down" aria-hidden="true"></i>Path</a></li>
+                        <li><a href="{{ url_for('information') }}"><i class="fa fa-chevron-down" aria-hidden="true"></i>Information</a></li>
+                        <li><a href="{{ url_for('projects') }}"><i class="fa fa-chevron-down" aria-hidden="true"></i>Projects</a></li>
+                        <li><a href="{{ url_for('libraries') }}"><i class="fa fa-chevron-down" aria-hidden="true"></i>Librariess</a></li>
+                    </ul>
+                </nav></strong>
+            </div>
+        </header>
+
+        <!--  End Head-->
+
+        <div class="scroll-to-top">
+            <a href="#top"><span></span></a>
+        </div>
+
+        {% block body %}{% endblock%}
+
+        <div class="designer">
+          <p>Designed & Programmed By Abdullah ELyamany</p>
+          <div class="links">
+            <ul class="menu-links">
+              <li><a href="https://www.facebook.com/profile.php?id=100083729833488"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+              <li><a href="https://github.com/AbdullahELyamany"><i class="fa fa-github" aria-hidden="true"></i></a></li>
+              <li><a href="https://www.linkedin.com/in/abdullah-elyamany-974113265"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+              <li><a href="https://codepen.io/AbdullahELyamany"><i class="fa fa-codepen" aria-hidden="true"></i></a></li>
+              <li><a href="https://fci.bsu.edu.eg/"><i class="fa fa-university" aria-hidden="true"></i></a></li>
+            </ul>
+          </div>
+        </div>
+
+        <script src="{{ url_for('static', filename='js/main.js') }}"></script>
+    </body>
+
+</html>

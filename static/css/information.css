@@ -1,0 +1,197 @@
+
+.page {
+    display: flex;
+    min-height: 100vh;
+}
+
+.pa-t {
+    padding-top: 75px;
+}
+
+
+.bg-r {
+    background-color: #e97d7d;
+}
+.bg-y {
+    background-color: #e4eb81;
+}
+.bg-g {
+    background-color: #99eb89;
+}
+.bg-b {
+    background-color: #6c8ef3;
+}
+
+
+a {
+    text-decoration: none;
+}
+
+h2 {
+    padding: 10px;
+    font-size: 25px;
+    color: #303030;
+}
+
+h3 {
+    margin-left: 15px;
+    padding: 5px;
+}
+
+h4 {
+    text-align: center;
+    margin-top: 0;
+}
+
+.sidebar ul {
+    list-style: none;
+    padding: 0;
+}
+
+.sidebar a {
+    display: flex;
+    font-size: 16px;
+    color: black;
+    border-radius: 6px;
+    padding: 10px;
+    align-items: center;
+}
+
+
+.sidebar {
+    background-color: white;
+    padding: 20px;
+}
+
+.sidebar li .fa {
+    font-family: "FontAwesome";
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: inherit;
+    display: inline;
+}
+
+.fa-clock-rotate-left:before {
+    content: "\f1da";
+}
+.fa-compass-drafting:before {
+    content: "\f568";
+}
+.fa-1:before {
+    content: "\31";
+}
+.fa-2:before {
+    content: "\32";
+}
+.fa-3:before {
+    content: "\33";
+}
+.fa-code-branch:before {
+    content: "\f126";
+}
+.fa-link:before {
+    content: "\f0c1";
+}
+
+.fa-wikipedia-w:before {
+    content: "\f266";
+}
+.fa-python {
+    content: "\f3e2";
+}
+
+
+
+
+.title {
+    width: 90%;
+    background-color: #FFF;
+    margin-bottom: 23px;
+    margin-left: 50px;
+}
+
+.title h1 {
+    text-align: center;
+    padding: 15px;
+}
+
+.definition p {
+    text-align: center;
+}
+
+.box {
+    background-color: #FFF;
+    margin: 15px;
+    border-radius: 4px;
+}
+
+.box p {
+    font-family: "Cairo", Sans-Serif;
+    margin: 10px;
+    padding: 10px;
+    font-size: 18px;
+}
+
+
+
+caption h2 {
+    font-size: 24px;
+}
+td {
+    font-family: Arial;
+    text-align: center;
+    padding: 10px;
+    border: 1px solid #EEE;
+    font-size: 18px;
+}
+
+table {
+    border: 2px solid #EEE;
+    width: 98%;
+    margin: 15px;
+}
+th {
+    font-family: Arial;
+    background-color: #EEE;
+    font-size: 18px;
+}
+
+
+/*--------- Start legend ----------*/
+
+
+.legend ul {
+    display: flex;
+}
+.legend li {
+    display: flex;
+    margin: 10px;
+}
+
+.co {
+    width: 25px;
+    height: 25px;
+    margin: 2px;
+}
+
+
+
+/*--------- End legend ----------*/
+
+.menu-d {
+    margin: 10px;
+}
+
+.e-links a {
+    color: #0078ff;
+}
+
+.menu-link {
+    list-style: none;
+    margin: 20px;
+    padding: 10px;
+}
+
+.menu-link li {
+    padding: 8px;
+}

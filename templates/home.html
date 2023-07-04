@@ -1,0 +1,48 @@
+{% extends 'base.html' %}
+
+{% block head %}
+
+{% endblock%}
+
+
+{% block body %}
+
+    <div class="page-head">
+        <h1>Welcome To ELyamany's WebSite</h1>
+        <p>
+            <pre>
+  This Site Is a Repository of Projects Designed Using the <b>Python Programming Language :</b>
+ Web Applications, Android Applications, User Interface Applications, Games, Tools, etc...
+   In Addition to Project Sources and Explanation Videos.
+            </pre>
+        </p>
+    </div>
+    <div class="page-body">
+    	<div class="info">
+			<img src="{{ url_for('static', filename='images/info.png') }}" title="info_python"/>
+			<h2>
+			    <a href="{{ url_for('information') }}">Information of Python</a>
+			</h2>
+    	</div>
+        <div class="path">
+            <img src="{{ url_for('static', filename='images/python_path.png') }}" title="img_python"/>
+            <h2>
+            	<a href="{{ url_for('path') }}">Path To Learn Python</a>
+            </h2>
+        </div>
+        <div class="projects">
+            <img src="{{ url_for('static', filename='images/python_project.png') }}" title="img_python"/>
+            <h2>
+            	<a href="{{ url_for('projects') }}">Python Projects</a>
+            </h2>
+        </div>
+        <div class="libraries">
+            <img src="{{ url_for('static', filename='images/python_library.png') }}" title="img_python"/>
+            <h2>
+            	<a href="{{ url_for('libraries') }}">python libraries</a>
+            </h2>
+        </div>
+    </div>
+
+
+{% endblock%}

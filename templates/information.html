@@ -1,0 +1,494 @@
+{% extends 'base.html' %}
+
+{% block head %}
+
+{% endblock%}
+
+
+{% block body %}
+
+    
+
+    <div class="page pad-top">
+
+        <div class="sidebar">
+            <h4>Information</h4>
+            <hr>
+            <ul>
+                <li>
+                    <a href="#histoty">
+                        <i class="fa fa-solid fa-clock-rotate-left"></i>
+                        <span> History</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#design">
+                        <i class="fa fa-duotone fa-compass-drafting"></i>
+                        <span> Design</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#version1">
+                        <i class="fa fa-solid fa-1"></i>
+                        <span> Version</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#version2">
+                        <i class="fa fa-solid fa-2"></i>
+                        <span> Version</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#version3">
+                        <i class="fa fa-solid fa-3"></i>
+                        <span> Version</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#versions">
+                        <i class="fa fa-solid fa-code-branch"></i>
+                        <span> Versions</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#links">
+                        <i class="fa fa-solid fa-link"></i>
+                        <span> Links</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+
+        <div class="content">
+
+        	<div class="title">
+        		<h1>Information Of Python</h1>
+        	</div>
+    
+            <div class="box history" id="histoty">
+                <span class="definition">
+                    <p><b>Python is a high-level, general-purpose programming language.</b><br>
+                    <b>Python consistently ranks as one of the most popular programming languages.</b></p>
+                    <hr>
+                </span>
+                <br><br>
+                <h2>History of Python</h2>
+
+                <p>Python was conceived in the late 1980s by Guido van Rossum at Centrum
+                Wiskunde & Informatica (CWI) in the Netherlands as a successor to the ABC
+                programming language, which was inspired by SETL, capable of exception
+                handling and interfacing with the Amoeba operating system.<br> Its
+                implementation began in December 1989.<br> Van Rossum shouldered sole
+                responsibility for the project, as the lead developer, until 12 July
+                2018, when he announced his "permanent vacation" from his
+                responsibilities as Python's dictator , a title the Python community
+                bestowed upon him to reflect his long-term commitment as the project's
+                chief decision-maker.<br>
+                In January 2019, active Python core developers
+                elected a five-member Steering Council to lead the project.<br><br>
+                Python 2.0 was released on 16 October 2000, with many major new features
+                such as list comprehensions, cycle-detecting garbage collection,
+                reference counting, and Unicode support. Python 3.0, released on 3
+                December 2008, with many of its major features backported to Python 2.6.x
+                and 2.7.x .<br>
+                Releases of Python 3 include the 2to3 utility, which
+                automates the translation of Python 2 code to Python 3.<br><br>
+                Python 2.7's end-of-life was initially set for 2015, then postponed to
+                2020 out of concern that a large body of existing code could not easily
+                be forward-ported to Python 3.<br> No further security patches or other
+                improvements will be released for it.<br> Currently only 3.7 and later are
+                supported.<br> In 2021, Python 3.9.2 and 3.8.8 were expedited as all versions
+                of Python (including 2.7) had security issues leading to possible remote
+                code execution and web cache poisoning.<br><br>
+                In 2022, Python 3.10.4 and 3.9.12 were expedited and 3.8.13, and 3.7.13,
+                because of many security issues.<br> When Python 3.9.13 was released in May
+                2022, it was announced that the 3.9 series (joining the older series 3.8
+                and 3.7) would only receive security fixes in the future.<br> On September 7,
+                2022, four new releases were made due to a potential denial-of-service
+                attack: 3.10.7, 3.9.14, 3.8.14, and 3.7.14.<br><br>
+                As of November 2022, Python 3.11.0 is the current stable release. Notable
+                changes from 3.10 include increased program execution speed and improved
+                error reporting.<br><br>
+                </p>
+            </div>
+            
+            <div class="box design pa-t" id="design">
+                <h2>Design philosophy and features</h2>
+                <p>
+                    <b>Python</b> is a <u>multi-paradigm programming language</u>.
+                    <u>Object-oriented programming</u> and <u>structured
+                    programming</u> are fully supported, and many of their features
+                    support <u>functional programming</u> and <u>aspect-oriented
+                    programming</u> (including metaprogramming and metaobjects). Many
+                    other paradigms are supported via extensions, including design by
+                    contract and logic programming.<br><br>
+
+                    Python uses dynamic typing and a combination of reference
+                    counting and a cycle-detecting garbage collector for memory
+                    management. It uses dynamic name resolution (late binding), which
+                    binds method and variable names during program execution.<br><br>
+                    
+                    Its design offers some support for functional programming in the
+                    Lisp tradition. It has filter,mapandreduce functions; list
+                    comprehensions, dictionaries, sets, and generator expressions.
+                    The standard library has two modules (itertools and functools)
+                    that implement functional tools borrowed from Haskell and
+                    Standard ML.<br><br>
+                    
+                    Its core philosophy is summarized in the document The Zen of
+                    Python (PEP 20), which includes aphorisms such as:<br>
+                </p>
+                <ul class="menu-d">
+                    <li>
+                        Beautiful is better than ugly.
+                    </li>
+                    <li>
+                        Explicit is better than implicit.
+                    </li>
+                    <li>
+                        Simple is better than complex.
+                    </li>
+                    <li>
+                        Complex is better than complicated.
+                    </li>
+                    <li>
+                        Readability counts.
+                    </li>
+                </ul>
+
+            </div>
+            
+            <div class="box version1 pa-t" id="version1">
+                <h2>Version 1</h2>
+                <p>
+                    Python reached version 1.0 in January 1994. The major new
+                    features included in this release were the functional programming
+                    tools lambda, map, filter and reduce. Van Rossum stated that
+                    "Python acquired lambda, reduce(), filter() and map(), courtesy
+                    of a Lisp hacker who missed them and submitted working
+                    patches".<br><br>
+
+                    The last version released while Van Rossum was at CWI was Python 1.2. In 1995, Van
+                    Rossum continued his work on Python at the Corporation for National Research
+                    Initiatives (CNRI) in Reston, Virginia from where he released several
+                    versions.<br><br>
+                    
+                    By version 1.4, Python had acquired several new features. Notable
+                    among these are the Modula-3 inspired keyword arguments (which
+                    are also similar to Common Lisp's keyword arguments) and built-in
+                    support for complex numbers. Also included is a basic form of
+                    data hiding by name mangling, though this is easily
+                    bypassed.<br><br>
+                    
+                    During Van Rossum's stay at CNRI, he launched the Computer Programming for Everybody
+                    (CP4E) initiative, intending to make programming more accessible to more people, with
+                    a basic "literacy" in programming languages, similar to the basic English literacy
+                    and mathematics skills required by most employers. Python served a central role in
+                    this: because of its focus on clean syntax, it was already suitable, and CP4E's goals
+                    bore similarities to its predecessor, ABC. The project was funded by DARPA. As of
+                    2007, the CP4E project is inactive, and while Python attempts to be easily learnable
+                    and not too arcane in its syntax and semantics, outreach to non-programmers is not an
+                    active concern.<br><br><br>
+                </p>
+                    <h3>BeOpen</h3>
+                <p>
+                    In 2000, the Python core development team moved to <i>BeOpen.com</i> to form the
+                    BeOpen PythonLabs team, under the direction of early Google alum Domenic Merenda.
+                    CNRI requested that a version 1.6 be released, summarizing Python's development up to
+                    the point at which the development team left CNRI. Consequently, the release
+                    schedules for 1.6 and 2.0 had a significant amount of overlap. <b>Python 2.0</b> was
+                    the only release from BeOpen.com. After Python 2.0 was released by BeOpen.com, Guido
+                    van Rossum and the other PythonLabs developers joined Digital Creations.<br><br>
+                    
+                    The Python 1.6 release included a new CNRI license that was substantially longer than
+                    the CWI license that had been used for earlier releases. The new license included a
+                    clause stating that the license was governed by the laws of the State of Virginia.
+                    The Free Software Foundation argued that the choice-of-law clause was incompatible
+                    with the GNU General Public License. BeOpen, CNRI and the FSF negotiated a change to
+                    Python's free software license that would make it GPL-compatible. Python 1.6.1 is
+                    essentially the same as Python 1.6, with a few minor bug fixes, and with the new
+                    GPL-compatible license.<br><br>
+                </p>
+            </div>
+            
+            <div class="box version2 pa-t" id="version2">
+                <h2>Version 2</h2>
+                <p>
+                    <b>Python 2.0</b>, released October 2000, introduced list
+                    comprehensions, a feature borrowed from the functional
+                    programming languages SETL and Haskell. Python's syntax for this
+                    construct is very similar to Haskell's, apart from Haskell's
+                    preference for punctuation characters and Python's preference for
+                    alphabetic keywords. Python 2.0 also introduced a garbage
+                    collector capable of collecting reference cycles.<br><br>
+
+                    <b>Python 2.1</b> was close to <b>Python 1.6.1</b>, as well as <b>Python 2.0</b>. Its
+                    license was renamed Python Software Foundation License. All code, documentation and
+                    specifications added, from the time of Python 2.1's alpha release on, is owned by the
+                    Python Software Foundation (PSF), a non-profit organization formed in 2001, modeled
+                    after the Apache Software Foundation. The release included a change to the language
+                    specification to support nested scopes, like other statically scoped languages. (The
+                    feature was turned off by default, and not required, until Python 2.2.)<br><br>
+
+                    <b>Python 2.2</b> was released in December 2001; a major
+                    innovation was the unification of Python's types (types written
+                    in C) and classes (types written in Python) into one hierarchy.
+                    This single unification made Python's object model purely and
+                    consistently object oriented. Also added were generators which
+                    were inspired by Icon.<br><br>
+                    <b>Python 2.5</b> was released in September 2006  and introduced
+                    the with statement, which encloses a code block within a context
+                    manager (for example, acquiring a lock before the block of code
+                    is run and releasing the lock afterwards, or opening a file and
+                    then closing it), allowing Resource Acquisition Is Initialization
+                    (RAII)-like behavior and replacing a common try/finally
+                    idiom.<br><br>
+
+                    <b>Python 2.6</b> was released to coincide with <b>Python
+                    3.0</b>, and included some features from that release, as well as
+                    a "warnings" mode that highlighted the use of features that were
+                    removed in Python 3.0. Similarly, <b>Python 2.7</b> coincided
+                    with and included features from <b>Python 3.1</b>, which was released on
+                    June 26, 2009. Parallel 2.x and 3.x releases then ceased, and
+                    Python 2.7 was the last release in the 2.x series. In November
+                    2014, it was announced that Python 2.7 would be supported until
+                    2020, but users were encouraged to move to Python 3 as soon as
+                    possible. Python 2.7 support ended on January 1, 2020, along with
+                    code freeze of 2.7 development branch. A final release, 2.7.18,
+                    occurred on April 20, 2020, and included fixes for critical bugs
+                    and release blockers. This marked the end-of-life of Python 2.
+                </p>
+            </div>
+            
+            <div class="box version3 pa-t" id="version3">
+                <h2>Version 3</h2>
+                <p>
+                    <b>Python 3.0</b> (also called "Python 3000" or "Py3K") was
+                    released on December 3, 2008. It was designed to rectify
+                    fundamental design flaws in the language – the changes required
+                    could not be implemented while retaining full backwards
+                    compatibility with the 2.x series, which necessitated a new major
+                    version number. The guiding principle of Python 3 was: "reduce
+                    feature duplication by removing old ways of doing things".<br><br>
+
+                    Python 3.0 was developed with the same philosophy as in prior versions. However, as
+                    Python had accumulated new and redundant ways to program the same task, Python 3.0
+                    had an emphasis on removing duplicative constructs and modules, in keeping with the
+                    Zen of Python: "There should be one— and preferably only one —obvious way to do
+                    it".<br><br>
+                    
+                    Nonetheless, Python 3.0 remained a <i>multi-paradigm language</i>. Coders could still
+                    follow <i>object-oriented</i>, structured, and functional programming paradigms,
+                    among others, but within such broad choices, the details were intended to be more
+                    obvious in Python 3.0 than they were in Python 2.x.<br><br><br>
+                </p>
+                <h3>Compatibility</h3>
+                <p>
+                    <b>Python 3.0</b> broke backward compatibility, and much Python 2
+                    code does not run unmodified on Python 3. Python's dynamic typing
+                    combined with the plans to change the semantics of certain methods of
+                    dictionaries, for example, made perfect mechanical translation from
+                    Python 2.x to Python 3.0 very difficult. A tool called "2to3" does
+                    the parts of translation that can be done automatically. At this,
+                    2to3 appeared to be fairly successful, though an early review noted
+                    that there were aspects of translation that such a tool would never
+                    be able to handle. Prior to the roll-out of Python 3, projects
+                    requiring compatibility with both the 2.x and 3.x series were
+                    recommended to have one source (for the 2.x series), and produce
+                    releases for the Python 3.x platform using 2to3. Edits to the Python
+                    3.x code were discouraged for so long as the code needed to run on
+                    Python 2.x. This is no longer recommended; as of 2012 the preferred
+                    approach was to create a single code base that can run under both
+                    Python 2 and 3 using compatibility modules.
+                </p>
+                <h3>Features</h3>
+                <p>
+                    Some of the major changes included for Python 3.0 were:<br><br>
+                    
+                    Changing print so that it is a built-in function, not a statement.
+                    This made it easier to change a module to use a different print
+                    function, as well as making the syntax more regular. In Python 2.6
+                    and 2.7 print() is available as a builtin but is masked by the print
+                    statement syntax, which can be disabled by entering from __future__
+                    import print_function at the top of the file. <br><br>
+                    
+                    Removal of the Python 2 input function, and the renaming of the
+                    raw_input function to input. Python 3's input function behaves like
+                    Python 2's raw_input function, in that the input is always returned
+                    as a string rather than being evaluated as an expression. <br><br>
+                    
+                    Moving reduce (but not map or filter) out of the built-in namespace
+                    and into functools (the rationale being code that uses reduce is less
+                    readable than code that uses a for loop and accumulator variable).
+                    <br><br>
+                    
+                    Adding support for optional function annotations that can be used for
+                    informal type declarations or other purposes. <br><br>
+                    
+                    Unifying the str/unicode types, representing text, and introducing a
+                    separate immutable bytes type; and a mostly corresponding mutable
+                    bytearray type, both of which represent arrays of bytes. <br><br>
+                    
+                    Removing backward-compatibility features, including old-style
+                    classes, string exceptions, and implicit relative imports. <br><br>
+                    
+                    A change in integer division functionality: in Python 2, integer
+                    division always returns an integer. For example 5 / 2 is 2; whereas
+                    in Python 3, 5 / 2 is 2.5. (In both Python 2 – 2.2 onwards – and
+                    Python 3, a separate operator exists to provide the old behavior: 5
+                    // 2 is 2). <br><br>
+                    
+                    Subsequent releases in the Python 3.x series have included
+                    additional, substantial new features; all ongoing development of the
+                    language is done in the 3.x series.
+                </p>
+            </div>
+            
+            <div class="box versions pa-t" id="versions">
+                <table>
+                    <caption><h2>Table of Python Versions</h2></caption>
+                    <thead>
+                        <tr>
+                            <th>Version</th> <th>Last Version</th> <th>Release Data</th> <th>Support End</th> <th>End of Security Fixes</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td class="bg-r">0.9</td> <td>0.9.9</td> <td>1991-02-20</td> <td colspan="2">1993-07-29</td>
+                        </tr>
+                        <tr>
+                            <td class="bg-r">1.0</td> <td>1.0.4</td> <td>1994-01-26</td> <td colspan="2">1994-02-15</td>
+                        </tr>
+                        <tr>
+                            <td class="bg-r">1.1</td> <td>1.1.1</td> <td>1994-10-11</td> <td colspan="2">1994-11-10</td>
+                        </tr>
+                        <tr>
+                            <td class="bg-r">1.2</td> <td></td> <td>1995-04-13</td> <td colspan="2">Unsupported</td>
+                        </tr>
+                        <tr>
+                            <td class="bg-r">1.3</td> <td></td> <td>1995-10-13</td> <td colspan="2">Unsupported</td>
+                        </tr>
+                        <tr>
+                            <td class="bg-r">1.4</td> <td></td> <td>1996-10-25</td> <td colspan="2">Unsupported</td>
+                        </tr>
+                        <tr>
+                            <td class="bg-r">1.5</td> <td>1.5.2</td> <td>1998-01-03</td> <td colspan="2">1999-04-13</td>
+                        </tr>
+                        <tr>
+                            <td class="bg-r">1.6</td> <td>1.6.1</td> <td>2000-09-05</td> <td colspan="2">2000-09</td>
+                        </tr>
+                        <tr>
+                            <td class="bg-r">2.0</td> <td>2.0.1</td> <td>2000-10-16</td> <td colspan="2">2001-06-22</td>
+                        </tr>
+                        <tr>
+                            <td class="bg-r">2.1</td> <td>2.1.3</td> <td>2001-04-15</td> <td colspan="2">2002-04-09</td>
+                        </tr>
+                        <tr>
+                            <td class="bg-r">2.2</td> <td>2.2.3</td> <td>2001-12-21</td> <td colspan="2">2003-05-30</td>
+                        </tr>
+                        <tr>
+                            <td class="bg-r">2.3</td> <td>2.3.7</td> <td>2003-06-29</td> <td colspan="2">2008-03-11</td>
+                        </tr>
+                        <tr>
+                            <td class="bg-r">2.4</td> <td>2.4.6</td> <td>2004-11-30</td> <td colspan="2">2008-12-19</td>
+                        </tr>
+                        <tr>
+                            <td class="bg-r">2.5</td> <td>2.5.6</td> <td>2006-09-19</td> <td colspan="2">2011-05-26</td>
+                        </tr>
+                        <tr>
+                            <td class="bg-r">2.6</td> <td>2.6.9</td> <td>2008-10-01</td> <td>2010-08-24</td> <td>2013-10-29</td>
+                        </tr>
+                        <tr>
+                            <td class="bg-r">2.7</td> <td>2.7.18</td> <td>2010-07-03</td> <td colspan="2">2020-01-01</td>
+                        </tr>
+                        <tr>
+                            <td class="bg-r">3.0</td> <td>3.0.1</td> <td>2008-12-03</td> <td colspan="2">2009-06-27</td>
+                        </tr>
+                        <tr>
+                            <td class="bg-r">3.1</td> <td>3.1.5</td> <td>2009-06-27</td> <td>2011-06-12</td> <td>2012-04-06</td>
+                        </tr>
+                        <tr>
+                            <td class="bg-r">3.2</td> <td>3.2.6</td> <td>2011-02-20</td> <td>2013-05-13</td> <td>2016-02-20</td>
+                        </tr>
+                        <tr>
+                            <td class="bg-r">3.3</td> <td>3.3.7</td> <td>2012-09-29</td> <td>2014-03-08</td> <td>2017-09-29</td>
+                        </tr>
+                        <tr>
+                            <td class="bg-r">3.4</td> <td>3.4.10</td> <td>2014-03-16</td> <td>2017-08-09</td> <td>2019-03-18</td>
+                        </tr>
+                        <tr>
+                            <td class="bg-r">3.5</td> <td>3.5.10</td> <td>2015-09-13</td> <td>2017-08-08</td> <td>2020-09-30</td>
+                        </tr>
+                        <tr>
+                            <td class="bg-r">3.6</td> <td>3.6.15</td> <td>2016-12-23</td> <td>2018-12-24</td> <td>2021-12-23</td>
+                        </tr>
+                        <tr>
+                            <td class="bg-y">3.7</td> <td>3.7.16</td> <td>2018-06-27</td> <td>2020-06-27</td> <td>2023-06-27</td>
+                        </tr>
+                        <tr>
+                            <td class="bg-y">3.8</td> <td>3.8.16</td> <td>2019-10-14</td> <td>2021-05-03</td> <td>2024-10</td>
+                        </tr>
+                        <tr>
+                            <td class="bg-y">3.9</td> <td>3.9.16</td> <td>2020-10-05</td> <td>2022-05-17</td> <td>2025-10</td>
+                        </tr>
+                        <tr>
+                            <td class="bg-y">3.10</td> <td>3.10.9</td> <td>2021-10-04</td> <td>2023-05</td> <td>2026-10</td>
+                        </tr>
+                        <tr>
+                            <td class="bg-g">3.11</td> <td>3.11.1</td> <td>2022-10-24</td> <td>2024-05</td> <td>2027-10</td>
+                        </tr>
+                        <tr>
+                            <td class="bg-b">3.12</td> <td>3.12.0</td> <td>2023-10-02</td> <td>2025-05</td> <td>2028-10</td>
+                        </tr>
+                        <tr>
+                            <td class="legend" colspan="3">
+                                <ul>
+                                    <li>
+                                        <span class="co bg-r"></span>
+                                        <span class="definition">Old Version</span>
+                                    </li>
+                                    <li>
+                                        <span class="co bg-y"></span>
+                                        <span class="definition">Older Version, still maintained</span>
+                                    </li>
+                                </ul>
+                                <ul>
+                                    <li>
+                                        <span class="co bg-g"></span>
+                                        <span class="definition">Last Version</span>
+                                    </li>
+                                    <li>
+                                        <span class="co bg-b"></span>
+                                        <span class="definition">Future Release</span>
+                                    </li>
+                                </ul>
+                            </td>
+                        </tr>
+                        
+                    </tbody>
+                </table>
+            </div>
+            <div class="box e-links" id="links">
+                <h2>External Links</h2>
+                <ul class="menu-link">
+                    <li>
+                        <span>To Read The Full Article on </span>
+                        <a href="https://en.wikipedia.org/wiki/Python_(programming_language)">
+                            <i class="fa-brands fa-wikipedia-w"></i>
+                            <span> Wikipedia</span>
+                        </a>
+                    </li>
+                    <li>
+                        <span>Official WebSite of Python Language </span>
+                        <a href="https://www.python.org/">
+                            <i class="fa-brands fa-python"></i>
+                            <span> python.org</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+{% endblock%}

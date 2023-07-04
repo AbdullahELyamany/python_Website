@@ -1,0 +1,46 @@
+
+
+.title {
+    background-color: white;
+    border-radius: 4px;
+}
+
+.title h1 {
+    font-size: 40px;
+    text-align: center;
+    padding: 8px;
+}
+
+.container_p {
+    background-color: white;
+    padding: 15px;
+    margin: 20px 0px 10px 0px;
+}
+
+.container_p h2 {
+    font-size: 32px;
+    margin: 5px;
+    padding-top: 30px;
+    padding: 15px;
+}
+
+.container_p ul {
+    list-style: none;
+    margin: 5px;
+    padding: 5px;
+    padding-left: 40px;
+}
+
+.container_p li {
+    font-size: 20px;
+}
+
+.container_p li + li {
+    padding: 5px;
+}
+
+.container_p p {
+    font-weight: bold;
+    font-size: 24px;
+    padding-left: 20px;
+}

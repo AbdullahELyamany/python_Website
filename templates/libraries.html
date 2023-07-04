@@ -1,0 +1,525 @@
+{% extends 'base.html' %}
+
+{% block head %}
+
+{% endblock%}
+
+
+{% block body %}
+
+    <div class="page">
+        <div class="sidebar_l">
+            <div class="head_l">
+                <h4>Libraries</h4>
+            </div>
+            <hr>
+            <div class="links_l">
+                <ul>
+                    <li>
+                        <a href="#web">WebApp</a>
+                        <ul>
+                            <li><a href="#web">Django</a></li>
+                            <li><a href="#django">Pyramid</a></li>
+                            <li><a href="#pyramid">Flask</a></li>
+                            <li><a href="#flask">Bottle</a></li>
+                            <li><a href="#bottle"></a>TurboGears</li>
+                            <li><a href="#TurboGears">Pywebio</a></li> <!--#webio-->
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#gui">Gui</a>
+                        <ul>
+                            <li><a href="#gui">Tkinter</a></li>
+                            <li><a href="#tkinter">wxPython</a></li>
+                            <li><a href="#wxpython">Kivy</a></li>
+                            <li><a href="#kivy">Kivymd</a></li>
+                            <li><a href="#kivymd">Pyqt5</a></li>
+                            <li><a href="#pyqt5">Pyqt6</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#numeric">Numeric</a>
+                        <ul>
+                            <li><a href="#numeric">Numpy</a></li>
+                            <li><a href="#numpy">Scipy</a></li>
+                            <li><a href="#scipy">Pandas</a></li>
+                            <li><a href="#pandas">IPython</a></li>
+                            <li><a href="#ipython"></a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="content_l">
+            <div class="box page-title">
+                <h1>Python Libraries</h1>
+            </div>
+            
+            <div class="box web-lib" id="web">
+                <h2>Web Libraries</h2>
+                <div class="django" id="django">
+                    <div class="head2_l">
+                        <h3>Django</h3>
+                        <img src="{{ url_for('static', filename='images/django.png') }}" title="django"/>
+                        <div>
+                            <a href="https://www.djangoproject.com/">
+                                <i class="fa-regular fa-globe"></i>
+                            </a>
+                            <a href="https://pypi.org/project/Django/">
+                                <i class="fa-solid fa-download"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <p>
+                        <b>Django</b> is an <u>open-source</u>, <b>Python framework</b> that is known for
+                        building complex data-driven websites. The framework has
+                        templates, libraries, and APIs that help in building scalable
+                        web-development projects. Django is the most popular Python
+                        framework and is the basis for various popular websites,
+                        including Instagram, Pinterest, Bitbucket, Nextdoor, The
+                        Washington Times, etc.
+                    </p>
+                </div>
+                <div class="pyramid" id="pyramid">
+                    <div class="head2_l">
+                        <h3>Pyramid</h3>
+                        <img src="{{ url_for('static', filename='images/pyramid.jpg') }}" title="pyramid"/ >
+                        <div class="link">
+                            <a href="https://trypyramid.com/">
+                                <i class="fa-regular fa-globe"></i>
+                            </a>
+                            <a href="https://pypi.org/project/pyramid/">
+                                <i class="fa-solid fa-download"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <p>
+                        <b>Pyramid</b> is a <u>small</u>, <u>fast</u>, <u>down-to-earth</u>, <u>open source</u> <b>Python
+                        web framework</b>. It makes real-world web application
+                        development and deployment more fun, more predictable, and
+                        more productive. browse its add-ons and
+                        documentation, and get an overview.
+                    </p>
+                </div>
+                
+                <div class="flask" id="flask">
+                    <div class="head2_l">
+                        <h3>Flask</h3>
+                        <img src="{{ url_for('static', filename='images/flask.png') }}" title="flask"/>
+                        <div>
+                            <a href="https://flask.palletsprojects.com/en/2.2.x/">
+                                <i class="fa-regular fa-globe"></i>
+                            </a>
+                            <a href="https://pypi.org/project/Flask/">
+                                <i class="fa-solid fa-download"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <p>
+                        <b>Flask</b> is a <b>micro web framework</b> that’s built-in with a
+                        development server and support for unit testing. This Unicode
+                        based Python framework supports RESTFUL request dispatching
+                        and is extensively documented for programmers to get started.
+                    </p>
+                </div>
+                <div class="bottle" id="bottle">
+                    <div class="head2_l">
+                        <h3>Bottle</h3>
+                        <img src="{{ url_for('static', filename='images/bottle.png') }}" title="bottle"/ >
+                        <div class="link">
+                            <a href="https://bottlepy.org/docs/dev/">
+                                <i class="fa-regular fa-globe"></i>
+                            </a>
+                            <a href="https://pypi.org/project/bottle/">
+                                <i class="fa-solid fa-download"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <p>
+                        The <b>bottle</b> is a WSGI <b>micro web framework</b>, which is
+                        distributed as a single file module with no dependencies
+                        other than the Python Standard Library. It has support for
+                        request dispatching with URL support, key/value databases and
+                        templates, and a built-in HTTP server.
+                    </p>
+                </div>
+                <div class="TurboGears" id="TurboGears">
+                    <div class="head2_l">
+                        <h3>TurboGears</h3>
+                        <img src="{{ url_for('static', filename='images/TgGear.png') }}" title="TgGear"/>
+                        <div class="link">
+                            <a href="https://turbogears.org/">
+                                <i class="fa-regular fa-globe"></i>
+                            </a>
+                            <a href="https://pypi.org/project/TurboGears/">
+                                <i class="fa-solid fa-download"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <p>
+                        <b>TurboGears</b> is a <b>web application development framework</b>,
+                        consisting of Web Server Gateway Interface (WSGI) components
+                        such as SQLAlchemy, Repoze, WebOb, etc. Similar to Ruby on
+                        Rails (RoR) or Apache Struts, TurboGears is built around MVC
+                        architecture that helps in rapid web application development.
+                    </p>
+                </div>
+                <div class="webio" id="webio">
+                    <div class="head2_l">
+                        <h3>PyWebIO</h3>
+                        <img src="{{ url_for('static', filename='images/webio.png') }}" title="webio"/ >
+                        <div class="link">
+                            <a href="https://www.pyweb.io/">
+                                <i class="fa-regular fa-globe"></i>
+                            </a>
+                            <a href="https://pypi.org/project/pywebio/">
+                                <i class="fa-solid fa-download"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <p>
+                        <b>PyWebIO</b> provides a diverse set of imperative functions to
+                        obtain user input and output content on the browser, turning
+                        the browser into a “rich text terminal”, and can be used to
+                        build simple web applications or browser-based GUI
+                        applications. Using PyWebIO, developers can write
+                        applications just like writing terminal scripts (interaction
+                        based on input and print function), without the need to have
+                        knowledge of HTML and JS. PyWebIO is ideal for quickly
+                        building interactive applications that don’t require a
+                        complicated user interface.
+                    </p>
+                </div>
+                <!--<div class="" id="">
+                    <div class="head2_l">
+                        <h3></h3>
+                        <img src="{{ url_for('static', filename='images/') }}" title=""/ >
+                        <div class="link">
+                            <a href="https://plone.org/">
+                                <i class="fa-regular fa-globe"></i>
+                            </a>
+                            <a href="">
+                                <i class="fa-solid fa-download"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <p>
+                        
+                    </p>
+                </div>-->
+                
+            </div>
+            <div class="box gui-lib" id="gui">
+                <h2>Gui Libraries</h2>
+                <div class="tkinter" id="tkinter">
+                    <div class="head2_l">
+                        <h3>Tkinter</h3>
+                        <img src="{{ url_for('static', filename='images/tkinter.webp') }}" title="tkinter"/ >
+                        <div class="link">
+                            <a href="https://docs.python.org/3/library/tkinter.html">
+                                <i class="fa-regular fa-globe"></i>
+                            </a>
+                            <a href="https://pypi.org/search/?q=tkinter">
+                                <i class="fa-solid fa-download"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <p>
+                        <b>Tkinter</b> is the standard GUI library for Python. Python when
+                        combined with Tkinter provides a fast and easy way to create
+                        GUI applications. Tkinter provides a powerful object-oriented
+                        interface to the Tk GUI toolkit.
+                    </p>
+                </div>
+                <div class="pygobject" id="pygobject">
+                    <div class="head2_l">
+                        <h3>PyGobject</h3>
+                        <img src="{{ url_for('static', filename='images/pygobject.jpeg') }}" title="pygobject"/ >
+                        <div class="link">
+                            <a href="https://pygobject.readthedocs.io/en/latest/index.html">
+                                <i class="fa-regular fa-globe"></i>
+                            </a>
+                            <a href="https://pypi.org/project/PyGObject/">
+                                <i class="fa-solid fa-download"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <p>
+                        <b>PyGObject</b> is a Python package which provides bindings for
+                        GObject based libraries such as GTK, GStreamer, WebKitGTK,
+                        GLib, GIO and many more.<br>
+                        It supports Linux, Windows and macOS and works with <b>Python 3.7+</b> and <b>PyPy3</b>. PyGObject,
+                        including this documentation, is licensed under the
+                        <b>LGPLv2.1+</b>.<br>
+                        If you want to write a Python application for GNOME or a Python GUI application using
+                        GTK, then PyGObject is the way to go. For more information on specific libraries
+                        check out the “Python GTK 3 Tutorial” and the “Python GI API Reference”.
+                    </p>
+                </div>
+                <div class="wxpython" id="wxpython">
+                    <div class="head2_l">
+                        <h3>wxPython</h3>
+                        <img src="{{ url_for('static', filename='images/wxpython.png') }}" title="wxpython"/ >
+                        <div class="link">
+                            <a href="https://wxpython.org/index.html">
+                                <i class="fa-regular fa-globe"></i>
+                            </a>
+                            <a href="https://pypi.org/project/wxPython/">
+                                <i class="fa-solid fa-download"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <p>
+                        Welcome to <b>wxPython’s Project Phoenix!</b> Phoenix is the
+                        improved next-generation wxPython, “better, stronger, faster
+                        than he was before.” This new implementation is focused on
+                        improving speed, maintainability and extensibility. Just like
+                        “Classic” wxPython, Phoenix wraps the wxWidgets C++ toolkit
+                        and provides access to the user interface portions of the
+                        wxWidgets API, enabling Python applications to have a native
+                        GUI on Windows, Macs or Unix systems, with a native look and
+                        feel and requiring very little (if any) platform specific
+                        code.
+                    </p>
+                </div>
+                <div class="kivy" id="kivy">
+                    <div class="head2_l">
+                        <h3>Kivy</h3>
+                        <img src="{{ url_for('static', filename='images/kivy.png') }}" title="kivy"/ >
+                        <div class="link">
+                            <a href="https://kivy.org/index.html">
+                                <i class="fa-regular fa-globe"></i>
+                            </a>
+                            <a href="https://pypi.org/project/Kivy/">
+                                <i class="fa-solid fa-download"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <p>
+                        <b>Kivy</b> is an open source, cross-platform Python
+                        framework for the development of applications that make use of innovative,
+                        multi-touch user interfaces.<br>
+                        The aim is to allow for quick and easy interaction design and rapid prototyping
+                        whilst making your code reusable and deployable.<br>
+                        <b>Kivy</b> is written in Python and Cython, based on OpenGL ES
+                        2, supports various input devices and has an extensive widget library. With the
+                        same codebase, you can target Windows, macOS, Linux, Android and iOS. All Kivy
+                        widgets are built with multitouch support.<br>
+                        <b>Kivy</b> is MIT licensed, actively developed by a great community and is supported
+                        by many projects managed by the Kivy Organization.
+                    </p>
+                </div>
+                <div class="kivymd" id="kivymd">
+                    <div class="head2_l">
+                        <h3>Kivymd</h3>
+                        <img src="{{ url_for('static', filename='images/kivymd.jpg') }}" title="kivymd"/ >
+                        <div class="link">
+                            <a href="https://kivymd.readthedocs.io/en/1.1.1/index.html#">
+                                <i class="fa-regular fa-globe"></i>
+                            </a>
+                            <a href="https://pypi.org/project/kivymd/">
+                                <i class="fa-solid fa-download"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <p>
+                        <b>KivyMD</b> is a collection of Material Design compliant widgets
+                        for use with Kivy, a framework for cross-platform,
+                        touch-enabled graphical applications.<br>
+                        The project's goal is to approximate Google's Material Design spec as close as
+                        possible without sacrificing ease of use. This library is a fork of the KivyMD
+                        project. We found the strength and brought this project to a
+                        new level.<br>
+                        Join the project! Just fork the project, branch out and submit a pull request when
+                        your patch is ready. If any changes are necessary, we'll guide you through the steps
+                        that need to be done via PR comments or access to your for may be requested to
+                        outright submit them.<br>
+                        If you wish to become a project developer (permission to create branches on the
+                        project without forking for easier collaboration), have at least one PR approved and
+                        ask for it. If you contribute regularly to the project the role may be offered to you
+                        without asking too.<br>
+                    </p>
+                </div>
+                <div class="pyqt5" id="pyqt5">
+                    <div class="head2_l">
+                        <h3>PyQt5</h3>
+                        <img src="{{ url_for('static', filename='images/pyqt5.png') }}" title="pyqt5"/ >
+                        <div class="link">
+                            <a href="">
+                                <i class="fa-regular fa-globe"></i>
+                            </a>
+                            <a href="">
+                                <i class="fa-solid fa-download"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <p>
+                        <b>Qt</b> is set of cross-platform C++ libraries that implement
+                        high-level APIs for accessing many aspects of modern desktop
+                        and mobile systems. These include location and positioning
+                        services, multimedia, NFC and Bluetooth connectivity, a
+                        Chromium based web browser, as well as traditional UI
+                        development.<br>
+                        <b>PyQt5</b> is a comprehensive set of Python bindings for Qt v5. It is implemented as more
+                        than 35 extension modules and enables Python to be used as an alternative application
+                        development language to C++ on all supported platforms
+                        including iOS and Android.<br>
+                        <b>PyQt5</b> may also be embedded in C++ based applications to allow users of those
+                        applications to configure or enhance the functionality of those applications.
+                    </p>
+                </div>
+                <div class="pyqt6" id="pyqt6">
+                    <div class="head2_l">
+                        <h3>PyQt6</h3>
+                        <img src="{{ url_for('static', filename='images/pyqt6.png') }}" title="pyqt6"/ >
+                        <div class="link">
+                            <a href="">
+                                <i class="fa-regular fa-globe"></i>
+                            </a>
+                            <a href="">
+                                <i class="fa-solid fa-download"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <p>
+                        <b>Qt</b> is set of cross-platform C++ libraries that implement
+                        high-level APIs for accessing many aspects of modern desktop
+                        and mobile systems. These include location and positioning
+                        services, multimedia, NFC and Bluetooth connectivity, a
+                        Chromium based web browser, as well as traditional UI
+                        development.<br>
+                        <b>PyQt6</b> is a comprehensive set of Python bindings for Qt v6. It is implemented as more
+                        than 35 extension modules and enables Python to be used as an alternative application
+                        development language to C++ on all supported platforms
+                        including iOS and Android.<br>
+                        <b>PyQt6</b> may also be embedded in C++ based applications to allow users of those
+                        applications to configure or enhance the functionality of those applications.
+                    </p>
+                </div>
+            </div>
+            <div class="box num-lib" id="numeric">
+                <h2> Scientific And Numeric</h2>
+                <div class="numpy" id="numpy">
+                    <div class="head2_l">
+                        <h3>Numpy</h3>
+                        <img src="{{ url_for('static', filename='images/numpy.png') }}" title="numpy"/ >
+                        <div class="link">
+                            <a href="https://numpy.org/">
+                                <i class="fa-regular fa-globe"></i>
+                            </a>
+                            <a href="https://pypi.org/project/numpy/">
+                                <i class="fa-solid fa-download"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <p>
+                        NumPy is the fundamental package for scientific computing with Python.<br><br>
+                        It provides:<br>
+                        a powerful N-dimensional array object<br>
+                        sophisticated (broadcasting) functions<br>
+                        tools for integrating C/C++ and Fortran code<br>
+                        useful linear algebra, Fourier transform, and random number capabilities
+                    </p>
+                </div>
+                <div class="scipy" id="scipy">
+                    <div class="head2_l">
+                        <h3>SciPy</h3>
+                        <img src="{{ url_for('static', filename='images/scipy.png') }}" title="scipy"/ >
+                        <div class="link">
+                            <a href="https://scipy.org/">
+                                <i class="fa-regular fa-globe"></i>
+                            </a>
+                            <a href="https://pypi.org/project/scipy/">
+                                <i class="fa-solid fa-download"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <p>
+                        SciPy (pronounced “Sigh Pie”) is an open-source software for
+                        mathematics, science, and engineering. It includes modules
+                        for statistics, optimization, integration, linear algebra,
+                        Fourier transforms, signal and image processing, ODE solvers,
+                        and more.<br>
+                        SciPy is built to work with NumPy arrays, and provides many
+                        user-friendly and efficient numerical routines, such as
+                        routines for numerical integration and optimization.
+                        Together, they run on all popular operating systems, are
+                        quick to install, and are free of charge. NumPy and SciPy are
+                        easy to use, but powerful enough to be depended upon by some
+                        of the world’s leading scientists and engineers. If you need
+                        to manipulate numbers on a computer and display or publish
+                        the results, give SciPy a try.
+                    </p>
+                </div>
+                <div class="pandas" id="pandas">
+                    <div class="head2_l">
+                        <h3>Pandas</h3>
+                        <img src="{{ url_for('static', filename='images/pandas.png') }}" title="pandas"/ >
+                        <div class="link">
+                            <a href="https://pandas.pydata.org/">
+                                <i class="fa-regular fa-globe"></i>
+                            </a>
+                            <a href="https://pypi.org/project/pandas/">
+                                <i class="fa-solid fa-download"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <p>
+                        pandas is a Python package that provides fast, flexible, and
+                        expressive data structures designed to make working with
+                        "relational" or "labeled" data both easy and intuitive. It
+                        aims to be the fundamental high-level building block for
+                        doing practical, real world data analysis in Python.
+                        Additionally, it has the broader goal of becoming the most
+                        powerful and flexible open source data analysis /
+                        manipulation tool available in any language. It is already
+                        well on its way towards this goal.
+                    </p>
+                </div>
+                <div class="ipython" id="ipython">
+                    <div class="head2_l">
+                        <h3>IPython</h3>
+                        <img src="{{ url_for('static', filename='images/ipython.png') }}" title="ipython"/ >
+                        <div class="link">
+                            <a href="https://ipython.org/">
+                                <i class="fa-regular fa-globe"></i>
+                            </a>
+                            <a href="https://pypi.org/project/ipython/">
+                                <i class="fa-solid fa-download"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <p>
+                        <b>IPython</b> provides a rich architecture for interactive computing with:<br><br>
+                        A powerful interactive shell.<br>
+                        A kernel for Jupyter.<br>
+                        Support for interactive data visualization and use of GUI toolkits.<br>
+                        Flexible, embeddable interpreters to load into your own projects.<br>
+                        Easy to use, high performance tools for parallel computing.
+                    </p>
+                </div>
+                <!--<div class="" id="">
+                    <div class="head2_l">
+                        <h3></h3>
+                        <img src="{{ url_for('static', filename='images/') }}" title=""/ >
+                        <div class="link">
+                            <a href="">
+                                <i class="fa-regular fa-globe"></i>
+                            </a>
+                            <a href="">
+                                <i class="fa-solid fa-download"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <p>
+                        
+                    </p>
+                </div>-->
+                
+            </div>
+            
+        </div>
+    </div>
+
+{% endblock%}

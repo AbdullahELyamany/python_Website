@@ -1,0 +1,447 @@
+{% extends 'base.html' %}
+
+{% block head %}
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/projects.css') }}" />
+{% endblock%}
+
+
+{% block body %}
+    <div class="page d-flex">
+      <div class="content w-full">
+        <h1 class="p-relative pt-100">Projects</h1>
+        <h2 class="p-relative head2" id="games">Terminal Games</h2>
+        <div class="projects-page d-grid m-20 gap-20">
+          <div class="project bg-white p-20 rad-6 p-relative">
+            <span class="date fs-13 c-grey">23/12/2022</span>
+            <h4 class="m-0">Guess Number Game</h4>
+            <p class="c-grey mt-10 mb-10 fs-14">Guess Number is a game that can make the computer choose the number and you guess it, or you can choose the number and make the computer guess it</p>
+            <div class="link">
+                <a class="lnk" href="https://github.com/AbdullahELyamany/guess_number" target="_blank"><span class="icon-github"></span>Project File on Github</a>
+            </div>
+            <div class="do d-flex">
+              <span class="fs-13 rad-6 bg-eee">Programming</span>
+              <span class="fs-13 rad-6 bg-eee">Python</span>
+              <span class="fs-13 rad-6 bg-eee">Random</span>
+            </div>
+            <div class="info between-flex">
+              <div class="prog bg-eee">
+                <span class="bg-yellow" style="width: 50%"></span>
+              </div>
+              <div class="fs-14 c-grey">
+              </div>
+            </div>
+          </div>
+          <div class="project bg-white p-20 rad-6 p-relative">
+            <span class="date fs-13 c-grey">15/10/2022</span>
+            <h4 class="m-0">number_guess_game</h4>
+            <p class="c-grey mt-10 mb-10 fs-14">The number guessing game, the computer choose the number and you guess it.</p>
+            <div class="link">
+                <a class="lnk" href="https://github.com/AbdullahELyamany/number_guessing_game" target="_blank"><span class="icon-github"></span>Project File on Github</a>
+            </div>
+            <div class="do d-flex">
+              <span class="fs-13 rad-6 bg-eee">Programming</span>
+              <span class="fs-13 rad-6 bg-eee">Python</span>
+              <span class="fs-13 rad-6 bg-eee">Random</span>
+            </div>
+            <div class="info between-flex">
+              <div class="prog bg-eee">
+                <span class="bg-red" style="width: 20%"></span>
+              </div>
+              <div class="fs-14 c-grey">
+              </div>
+            </div>
+          </div>
+          <div class="project bg-white p-20 rad-6 p-relative">
+            <span class="date fs-13 c-grey">30/8/2022</span>
+            <h4 class="m-0">Madlib Game</h4>
+            <p class="c-grey mt-10 mb-10 fs-14">Enter some words to create a useful sentence</p>
+            <div class="link">
+                <a class="lnk" href="https://github.com/AbdullahELyamany/madlib_game" target="_blank"><span class="icon-github"></span>Project File on Github</a>
+            </div>
+            <div class="do d-flex">
+              <span class="fs-13 rad-6 bg-eee">Programming</span>
+              <span class="fs-13 rad-6 bg-eee">Python</span>
+            </div>
+            <div class="info between-flex">
+              <div class="prog bg-eee">
+                <span class="bg-red" style="width: 15%"></span>
+              </div>
+              <div class="fs-14 c-grey">
+              </div>
+            </div>
+          </div>
+          <div class="project bg-white p-20 rad-6 p-relative">
+            <span class="date fs-13 c-grey">24/9/2022</span>
+            <h4 class="m-0">Random Madlibs Game</h4>
+            <p class="c-grey mt-10 mb-10 fs-14">Enter some words to create a useful random sentence</p>
+            <div class="link">
+                <a class="lnk" href="https://github.com/AbdullahELyamany/random_madlibs" target="_blank"><span class="icon-github"></span>Project File on Github</a>
+            </div>
+            <div class="do d-flex">
+              <span class="fs-13 rad-6 bg-eee">Programming</span>
+              <span class="fs-13 rad-6 bg-eee">Python</span>
+              <span class="fs-13 rad-6 bg-eee">Random</span>
+            </div>
+            <div class="info between-flex">
+              <div class="prog bg-eee">
+                <span class="bg-red" style="width: 20%"></span>
+              </div>
+              <div class="fs-14 c-grey">
+              </div>
+            </div>
+          </div>
+          <div class="project bg-white p-20 rad-6 p-relative">
+            <span class="date fs-13 c-grey">1/10/2022</span>
+            <h4 class="m-0">Hangman_Game</h4>
+            <p class="c-grey mt-10 mb-10 fs-14">The computer randomly chooses a word.  You have to guess the letters of this word before a certain number of times</p>
+            <div class="link">
+                <a class="lnk" href="https://github.com/AbdullahELyamany/hangman_game" target="_blank"><span class="icon-github"></span>Project File on Github</a>
+            </div>
+            <div class="do d-flex">
+              <span class="fs-13 rad-6 bg-eee">Programming</span>
+              <span class="fs-13 rad-6 bg-eee">Python</span>
+              <span class="fs-13 rad-6 bg-eee">Random</span>
+            </div>
+            <div class="info between-flex">
+              <div class="prog bg-eee">
+                <span class="bg-red" style="width: 20%"></span>
+              </div>
+              <div class="fs-14 c-grey">
+                
+              </div>
+            </div>
+          </div>
+          <div class="project bg-white p-20 rad-6 p-relative">
+            <span class="date fs-13 c-grey">3/10/2022</span>
+            <h4 class="m-0">HangmanGame</h4>
+            <p class="c-grey mt-10 mb-10 fs-14">The computer randomly chooses a word of a hundred words.  You have to guess the letters of this word before a certain number of times</p>
+            <div class="link">
+                <a class="lnk" href="https://github.com/AbdullahELyamany/HangmanGame" target="_blank"><span class="icon-github"></span>Project File on Github</a>
+            </div>
+            <div class="do d-flex">
+              <span class="fs-13 rad-6 bg-eee">Programming</span>
+              <span class="fs-13 rad-6 bg-eee">Python</span>
+              <span class="fs-13 rad-6 bg-eee">Random</span>
+            </div>
+            <div class="info between-flex">
+              <div class="prog bg-eee">
+                <span class="bg-red" style="width: 25%"></span>
+              </div>
+              <div class="fs-14 c-grey">
+              </div>
+            </div>
+          </div>
+          <div class="project bg-white p-20 rad-6 p-relative">
+            <span class="date fs-13 c-grey">7/12/2022</span>
+            <h4 class="m-0">Rock Paper Scissors</h4>
+            <p class="c-grey mt-10 mb-10 fs-14">rock paper scissors game Play against the computer, choose R(rock) p(paper) s(scissors)</p>
+            <div class="link">
+                <a class="lnk" href="https://github.com/AbdullahELyamany/rock_paper_scissors" target="_blank"><span class="icon-github"></span>Project File on Github</a>
+            </div>
+            <div class="do d-flex">
+              <span class="fs-13 rad-6 bg-eee">Programming</span>
+              <span class="fs-13 rad-6 bg-eee">Python</span>
+              <span class="fs-13 rad-6 bg-eee">Random</span>
+            </div>
+            <div class="info between-flex">
+              <div class="prog bg-eee">
+                <span class="bg-red" style="width: 15%"></span>
+              </div>
+              <div class="fs-14 c-grey">
+              </div>
+            </div>
+          </div>
+          <div class="project bg-white p-20 rad-6 p-relative">
+            <span class="date fs-13 c-grey">12/1/2023</span>
+            <h4 class="m-0">tic-tac-toe</h4>
+            <p class="c-grey mt-10 mb-10 fs-14">Tic Tac Toe Game. Play against another person</p>
+            <div class="link">
+                <a class="lnk" href="https://github.com/AbdullahELyamany/tic-tac-toe" target="_blank"><span class="icon-github"></span>Project File on Github</a>
+            </div>
+            <div class="do d-flex">
+              <span class="fs-13 rad-6 bg-eee">Programming</span>
+              <span class="fs-13 rad-6 bg-eee">Python</span>
+              <span class="fs-13 rad-6 bg-eee">Random</span>
+            </div>
+            <div class="info between-flex">
+              <div class="prog bg-eee">
+                <span class="bg-yellow" style="width: 40%"></span>
+              </div>
+              <div class="fs-14 c-grey">
+              </div>
+            </div>
+          </div>
+          <div class="project bg-white p-20 rad-6 p-relative">
+            <span class="date fs-13 c-grey">15/3/2023</span>
+            <h4 class="m-0">Tic Tac Toe</h4>
+            <p class="c-grey mt-10 mb-10 fs-14">Tic Tac Toe Game : You can choose your opponent<br>
+                1- against another person.<br>
+                2- against a computer playing randomly.<br>
+                3- against an intelligent computer</p>
+            <div class="link">
+                <a class="lnk" href="https://github.com/AbdullahELyamany/Tic_Tac_Toe" target="_blank"><span class="icon-github"></span>Project File on Github</a>
+            </div>
+            <div class="do d-flex">
+              <span class="fs-13 rad-6 bg-eee">Programming</span>
+              <span class="fs-13 rad-6 bg-eee">Python</span>
+              <span class="fs-13 rad-6 bg-eee">Random</span>
+              <span class="fs-13 rad-6 bg-eee">Math</span>
+            </div>
+            <div class="info between-flex">
+              <div class="prog bg-eee">
+                <span class="bg-green" style="width: 60%"></span>
+              </div>
+              <div class="fs-14 c-grey">
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <h2 class="p-relative head2">GUI Games</h2>
+        <div class="projects-page d-grid m-20 gap-20">
+          <div class="project bg-white p-20 rad-6 p-relative">
+            <span class="date fs-13 c-grey">1/2/2023</span>
+            <h4 class="m-0">Ping Pong</h4>
+            <p class="c-grey mt-10 mb-10 fs-14">Ping pong (GUI)game using python lang.. and turtle model.<br>
+                2 players:<br>
+                    player1 => Movement buttons up and down.<br>
+                    player2 => Movement buttons w and s</p>
+            <div class="link">
+                <a class="lnk" href="https://github.com/AbdullahELyamany/Ping_Pong" target="_blank"><span class="icon-github"></span>Project File on Github</a>
+            </div>
+            <div class="do d-flex">
+              <span class="fs-13 rad-6 bg-eee">Programming</span>
+              <span class="fs-13 rad-6 bg-eee">Design</span>
+              <span class="fs-13 rad-6 bg-eee">Python</span>
+              <span class="fs-13 rad-6 bg-eee">Turtle</span>
+            </div>
+            <div class="info between-flex">
+              <div class="prog bg-eee">
+                <span class="bg-green" style="width: 60%"></span>
+              </div>
+              <div class="fs-14 c-grey">
+              </div>
+            </div>
+          </div>
+          <div class="project bg-white p-20 rad-6 p-relative">
+            <span class="date fs-13 c-grey">22/12/2022</span>
+            <h4 class="m-0">Madlib_gui_desktop</h4>
+            <p class="c-grey mt-10 mb-10 fs-14">madlib gui game to desktop. Enter some words to form useful sentences</p>
+            <div class="link">
+                <a class="lnk" href="https://github.com/AbdullahELyamany/madlib_gui_desktop" target="_blank"><span class="icon-github"></span>Project File on Github</a>
+            </div>
+            <div class="do d-flex">
+              <span class="fs-13 rad-6 bg-eee">Programming</span>
+              <span class="fs-13 rad-6 bg-eee">Design</span>
+              <span class="fs-13 rad-6 bg-eee">Python</span>
+              <span class="fs-13 rad-6 bg-eee">Turtle</span>
+            </div>
+            <div class="info between-flex">
+              <div class="prog bg-eee">
+                <span class="bg-yellow" style="width: 30%"></span>
+              </div>
+              <div class="fs-14 c-grey">
+              </div>
+            </div>
+          </div>
+          <div class="project bg-white p-20 rad-6 p-relative">
+            <span class="date fs-13 c-grey">20/1/2023</span>
+            <h4 class="m-0">Tic Tac Toe</h4>
+            <p class="c-grey mt-10 mb-10 fs-14">Tic Tac Toe GUI Game. 2 Player and Good Design </p>
+            <div class="link">
+                <a class="lnk" href="https://github.com/AbdullahELyamany/Tic-Tac-Toe-GUI-" target="_blank"><span class="icon-github"></span>Project File on Github</a>
+            </div>
+            <div class="do d-flex">
+              <span class="fs-13 rad-6 bg-eee">Programming</span>
+              <span class="fs-13 rad-6 bg-eee">Design</span>
+              <span class="fs-13 rad-6 bg-eee">Python</span>
+              <span class="fs-13 rad-6 bg-eee">Tkinter</span>
+              <span class="fs-13 rad-6 bg-eee">Random</span>
+            </div>
+            <div class="info between-flex">
+              <div class="prog bg-eee">
+                <span class="bg-green" style="width: 60%"></span>
+              </div>
+              <div class="fs-14 c-grey">
+              </div>
+            </div>
+          </div>
+          <div class="project bg-white p-20 rad-6 p-relative">
+            <span class="date fs-13 c-grey">15/6/2023</span>
+            <h4 class="m-0">Tic Tac Toe</h4>
+            <p class="c-grey mt-10 mb-10 fs-14">Tic Tac Toe GUI Game. 2Players and Beautiful Design</p>
+            <div class="link">
+                <a class="lnk" href="https://github.com/AbdullahELyamany/Tic_Tac_Toe_GUI" target="_blank"><span class="icon-github"></span>Project File on Github</a>
+            </div>
+            <div class="do d-flex">
+              <span class="fs-13 rad-6 bg-eee">Programming</span>
+              <span class="fs-13 rad-6 bg-eee">Design</span>
+              <span class="fs-13 rad-6 bg-eee">Python</span>
+              <span class="fs-13 rad-6 bg-eee">Tkinter</span>
+              <span class="fs-13 rad-6 bg-eee">Random</span>
+            </div>
+            <div class="info between-flex">
+              <div class="prog bg-eee">
+                <span class="bg-green" style="width: 60%"></span>
+              </div>
+              <div class="fs-14 c-grey">
+              </div>
+            </div>
+          </div>
+        </div>
+        <h2 class="p-relative head2" id="mobile">Mobile Apps</h2>
+        <div class="projects-page d-grid m-20 gap-20">
+          <div class="project bg-white p-20 rad-6 p-relative">
+            <span class="date fs-13 c-grey">20/10/2022</span>
+            <h4 class="m-0">Calculate Moblie App</h4>
+            <p class="c-grey mt-10 mb-10 fs-14">Calculate Mobile App Using Python Lang.. and kivy model</p>
+            <div class="link">
+                <a class="lnk" href="https://github.com/AbdullahELyamany/Calculate.kivy" target="_blank"><span class="icon-github"></span>Project File on Github</a>
+            </div>
+            <div class="do d-flex">
+              <span class="fs-13 rad-6 bg-eee">Programming</span>
+              <span class="fs-13 rad-6 bg-eee">Design</span>
+              <span class="fs-13 rad-6 bg-eee">Python</span>
+              <span class="fs-13 rad-6 bg-eee">Kivy</span>
+            </div>
+            <div class="info between-flex">
+              <div class="prog bg-eee">
+                <span class="bg-yellow" style="width: 40%"></span>
+              </div>
+              <div class="fs-14 c-grey">
+              </div>
+            </div>
+          </div>
+          <div class="project bg-white p-20 rad-6 p-relative">
+            <span class="date fs-13 c-grey">5/11/2023</span>
+            <h4 class="m-0">Learn Coding Mobile App</h4>
+            <p class="c-grey mt-10 mb-10 fs-14">Mobile App Design to Learn the Coding With EL-Yamany using python and kivy</p>
+            <div class="link">
+                <a class="lnk" href="https://github.com/AbdullahELyamany/Learn-Coding-Mobile-App" target="_blank"><span class="icon-github"></span>Project File on Github</a>
+            </div>
+            <div class="do d-flex">
+              <span class="fs-13 rad-6 bg-eee">Programming</span>
+              <span class="fs-13 rad-6 bg-eee">Design</span>
+              <span class="fs-13 rad-6 bg-eee">Python</span>
+              <span class="fs-13 rad-6 bg-eee">Kivy</span>
+            </div>
+            <div class="info between-flex">
+              <div class="prog bg-eee">
+                <span class="bg-yellow" style="width: 40%"></span>
+              </div>
+              <div class="fs-14 c-grey">
+              </div>
+            </div>
+          </div>
+          <div class="project bg-white p-20 rad-6 p-relative">
+            <span class="date fs-13 c-grey">17/11/2022</span>
+            <h4 class="m-0">Gallery</h4>
+            <p class="c-grey mt-10 mb-10 fs-14">Mobile App Design to Gallery Using python and kivy </p>
+            <div class="link">
+                <a class="lnk" href="https://github.com/AbdullahELyamany/Gallery-App-kivy" target="_blank"><span class="icon-github"></span>Project File on Github</a>
+            </div>
+            <div class="do d-flex">
+              <span class="fs-13 rad-6 bg-eee">Programming</span>
+              <span class="fs-13 rad-6 bg-eee">Design</span>
+              <span class="fs-13 rad-6 bg-eee">Python</span>
+              <span class="fs-13 rad-6 bg-eee">Kivy</span>
+            </div>
+            <div class="info between-flex">
+              <div class="prog bg-eee">
+                <span class="bg-yellow" style="width: 40%"></span>
+              </div>
+              <div class="fs-14 c-grey">
+              </div>
+            </div>
+          </div>
+          <div class="project bg-white p-20 rad-6 p-relative">
+            <span class="date fs-13 c-grey">20/11/2022</span>
+            <h4 class="m-0">Learn Coding Mobile App</h4>
+            <p class="c-grey mt-10 mb-10 fs-14">Mobile App Design to Learn the Coding Using python, kivy and kivymd</p>
+            <div class="link">
+                <a class="lnk" href="https://github.com/AbdullahELyamany/learn-coding_MobileApp_kivymd" target="_blank"><span class="icon-github"></span>Project File on Github</a>
+            </div>
+            <div class="do d-flex">
+              <span class="fs-13 rad-6 bg-eee">Programming</span>
+              <span class="fs-13 rad-6 bg-eee">Design</span>
+              <span class="fs-13 rad-6 bg-eee">Python</span>
+              <span class="fs-13 rad-6 bg-eee">Kivy</span>
+              <span class="fs-13 rad-6 bg-eee">Kivymd</span>
+            </div>
+            <div class="info between-flex">
+              <div class="prog bg-eee">
+                <span class="bg-yellow" style="width: 30%"></span>
+              </div>
+              <div class="fs-14 c-grey">
+              </div>
+            </div>
+          </div>
+          <div class="project bg-white p-20 rad-6 p-relative">
+            <span class="date fs-13 c-grey">3/12/2022</span>
+            <h4 class="m-0">Profile Moblie App</h4>
+            <p class="c-grey mt-10 mb-10 fs-14">Design to Profile Moblie App Using python and kivy and kivymd</p>
+            <div class="link">
+                <a class="lnk" href="https://github.com/AbdullahELyamany/Design-To-Profile_MoblieApp_kivy" target="_blank"><span class="icon-github"></span>Project File on Github</a>
+            </div>
+            <div class="do d-flex">
+              <span class="fs-13 rad-6 bg-eee">Programming</span>
+              <span class="fs-13 rad-6 bg-eee">Python</span>
+              <span class="fs-13 rad-6 bg-eee">Kivy</span>
+              <span class="fs-13 rad-6 bg-eee">Kivymd</span>
+            </div>
+            <div class="info between-flex">
+              <div class="prog bg-eee">
+                <span class="bg-red" style="width: 25%"></span>
+              </div>
+              <div class="fs-14 c-grey">
+              </div>
+            </div>
+          </div>
+          <div class="project bg-white p-20 rad-6 p-relative">
+            <span class="date fs-13 c-grey">3/12/2022</span>
+            <h4 class="m-0">Simple Design Moblie App1</h4>
+            <p class="c-grey mt-10 mb-10 fs-14">Simple Design_Moblie App1 using python kivy & kivymd</p>
+            <div class="link">
+                <a class="lnk" href="https://github.com/AbdullahELyamany/Simple-Design_Moblie-App1" target="_blank"><span class="icon-github"></span>Project File on Github</a>
+            </div>
+            <div class="do d-flex">
+              <span class="fs-13 rad-6 bg-eee">Programming</span>
+              <span class="fs-13 rad-6 bg-eee">Design</span>
+              <span class="fs-13 rad-6 bg-eee">Python</span>
+              <span class="fs-13 rad-6 bg-eee">Kivy</span>
+              <span class="fs-13 rad-6 bg-eee">Kivymd</span>
+            </div>
+            <div class="info between-flex">
+              <div class="prog bg-eee">
+                <span class="bg-red" style="width: 20%"></span>
+              </div>
+              <div class="fs-14 c-grey">
+              </div>
+            </div>
+          </div>
+          <div class="project bg-white p-20 rad-6 p-relative">
+            <span class="date fs-13 c-grey">3/12/2022</span>
+            <h4 class="m-0">Simple Design Moblie App2</h4>
+            <p class="c-grey mt-10 mb-10 fs-14">Simple Design_Moblie App2 using python kivy & kivymd</p>
+            <div class="link">
+                <a class="lnk" href="https://github.com/AbdullahELyamany/Simple-Design_Moblie-App2" target="_blank"><span class="icon-github"></span>Project File on Github</a>
+            </div>
+            <div class="do d-flex">
+              <span class="fs-13 rad-6 bg-eee">Programming</span>
+              <span class="fs-13 rad-6 bg-eee">Design</span>
+              <span class="fs-13 rad-6 bg-eee">Python</span>
+              <span class="fs-13 rad-6 bg-eee">Kivy</span>
+              <span class="fs-13 rad-6 bg-eee">Kivymd</span>
+            </div>
+            <div class="info between-flex">
+              <div class="prog bg-eee">
+                <span class="bg-red" style="width: 20%"></span>
+              </div>
+              <div class="fs-14 c-grey">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+{% endblock%}
